@@ -5,7 +5,11 @@ body {
 }
 
 h1 {
-    font-size: 47px;
+    font-size: 46px;
+}
+
+.section2-p {
+    padding-right: 150px;
 }
 
 .font-color {
@@ -14,11 +18,12 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 6%;
+    padding: 50px 0px 0px 100px;
 }
 
 .half-width img {
@@ -46,4 +51,10 @@ section {
 .section1-bg {
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.section2-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
