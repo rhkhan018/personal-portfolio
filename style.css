@@ -8,6 +8,10 @@ h1 {
     font-size: 46px;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 .section2-p {
     padding-right: 150px;
 }
@@ -16,9 +20,8 @@ h1 {
     color: orange;
 }
 
-section {
+.flex-container {
     display: flex;
-    margin-bottom: 100px;
 }
 
 .half-width {
@@ -57,4 +60,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.section3-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.section3-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30px;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#fs-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
