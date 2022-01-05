@@ -3,3 +3,47 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    font-size: 47px;
+}
+
+.font-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 6%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.link-btn:hover {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section1-bg {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
